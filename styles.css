@@ -2,3 +2,23 @@
     margin: 0;
     padding: 0;
 }
+
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+.header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.projects {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}

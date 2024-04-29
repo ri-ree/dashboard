@@ -11,14 +11,23 @@
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    background-color: ;
 }
 
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    background-color: rgb(83, 63, 138);
 }
 
 .projects {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    background-color: rgb(132, 123, 158);
+}
+
+.sidebar ul li {
+    color: white;
+    font-weight: 700;
+    margin: 10px;
 }

@@ -17,12 +17,11 @@
 
 .header input {
     background-color: rgb(132, 123, 158);
-    margin-top: 10px;
     margin-left: 30px;
     border-radius: 15px;
     width: 400px;
     border-style: solid;
-    height: 20px;
+    height: 15px;
 }
 
 .header button {
@@ -44,18 +43,26 @@
 .top-left-content {
     display: grid;
     grid-template-columns: 20px auto;
+    align-items: center;
 }
 
 .top-left-content img {
     height: 15px;
     width: 15px;
-    align-self: center;
     margin-left: 25px;
 }
 
 .top-right-content {
     justify-self: end;
     margin-right: 40px;
+    display: grid;
+    align-items: center;
+}
+
+.top-right-content img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
 }
 
 .bottom-right-content {

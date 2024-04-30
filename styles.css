@@ -39,6 +39,16 @@
     grid-template-columns: 2fr 1fr;
 }
 
+.top-right-content {
+    justify-self: end;
+    margin-right: 40px;
+}
+
+.bottom-right-content {
+    justify-self: end;
+    margin-right: 30px;
+}
+
 .bottom-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -107,4 +117,5 @@
     padding-left: 5px;
     padding-right: 5px;
     background-color: white;
+    border-radius: 5px;
 }

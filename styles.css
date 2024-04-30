@@ -47,6 +47,8 @@
 .right-projects {
     grid-column: 2 / 3;
     display: grid;
+    grid-template-columns: 200px;
+    justify-content: center;
     gap: 20px;
 }
 

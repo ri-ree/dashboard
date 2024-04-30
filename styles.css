@@ -6,7 +6,7 @@
 .main-container {
     display: grid;
     grid-template-columns: 2fr 8fr;
-    grid-template-rows: 100px 600px;
+    grid-template-rows: 120px 700px;
 }
 
 .header {
@@ -58,14 +58,20 @@
     justify-self: end;
     margin-right: 40px;
     display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .top-right-content img {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
+}
+
+.top-right-content > div:first-child {
+    justify-self: end;
 }
 
 .bottom-content {
@@ -89,12 +95,12 @@
 }
 
 .bottom-left-content div:nth-child(2) {
-    font-size: 12px;
+    font-size: 15px;
     align-self: end;
 }
 
 .bottom-left-content > div {
-    font-size: 18px;
+    font-size: 22px;
     align-self: start;
 }
 

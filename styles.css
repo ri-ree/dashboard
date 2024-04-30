@@ -59,10 +59,11 @@
     grid-row: 1 / 3;
     background-color: rgb(83, 63, 138);
     display: grid;
-    grid-template-rows: 40px 250px 250px;
+    grid-template-rows: 40px 240px 150px;
+    align-items: end;
 }
 
-.sidebar h4 {
+.sidebar h2 {
     color: white;
     display: grid;
     grid-template-columns: 1fr 7fr;

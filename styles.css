@@ -12,6 +12,17 @@
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+}
+
+.top-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.bottom-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .sidebar {

@@ -28,11 +28,11 @@
     border: none;
     background-color: rgb(83, 63, 138);
     color: white;
-    padding: 10px;
     margin-right: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 12px;
+    height: 40px;
 }
 
 .top-content {
@@ -87,6 +87,9 @@
 .bottom-right-content {
     justify-self: end;
     margin-right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 

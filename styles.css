@@ -20,8 +20,9 @@
     margin-top: 10px;
     margin-left: 30px;
     border-radius: 15px;
-    width: 500px;
+    width: 400px;
     border-style: solid;
+    height: 20px;
 }
 
 .header button {
@@ -40,6 +41,18 @@
     grid-template-columns: 2fr 1fr;
 }
 
+.top-left-content {
+    display: grid;
+    grid-template-columns: 20px auto;
+}
+
+.top-left-content img {
+    height: 15px;
+    width: 15px;
+    align-self: center;
+    margin-left: 25px;
+}
+
 .top-right-content {
     justify-self: end;
     margin-right: 40px;
@@ -52,7 +65,7 @@
 
 .bottom-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .sidebar {

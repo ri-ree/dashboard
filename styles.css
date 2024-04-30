@@ -15,6 +15,23 @@
     display: grid;
 }
 
+.header input {
+    background-color: rgb(132, 123, 158);
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.header button {
+    border: none;
+    background-color: rgb(83, 63, 138);
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+}
+
 .top-content {
     display: grid;
     grid-template-columns: 2fr 1fr;

@@ -65,15 +65,25 @@
     margin-right: 10px;
 }
 
+.bottom-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.bottom-left-content {
+    display: grid;
+}
+
+.bottom-left-content {
+    width: 15px;
+    height: 15px;
+}
+
 .bottom-right-content {
     justify-self: end;
     margin-right: 30px;
 }
 
-.bottom-content {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
 
 .sidebar {
     grid-column: 1 / 2;

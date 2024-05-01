@@ -174,11 +174,20 @@
     border-left: 7px solid black;
 }
 
+.inside-projects > p {
+    font-size: 18px;
+}
+
+.inside-projects > div {
+    font-size: 16px;
+    color: rgb(139, 132, 145);
+}
+
 .left-projects {
     grid-column: 1 / 2;
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(6, auto-fit);
     grid-template-rows: 20px 1fr 1fr 1fr;
 }
 

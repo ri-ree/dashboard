@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'LieraSansRegular';
+    font-family: 'LieraSansRegular', Arial, Helvetica, sans-serif;
 }
 
 .main-container {

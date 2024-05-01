@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'LieraSansRegular';
+}
+
 .main-container {
     display: grid;
     grid-template-columns: 2fr 8fr;
@@ -138,6 +142,7 @@
     grid-template-columns: 1fr 7fr;
     align-items: center;
     margin-left: 12px;
+    font-size: 18px;
 }
 
 .sidebar img {
@@ -172,15 +177,27 @@
     background-color: white;
     border-radius: 5px;
     border-left: 7px solid black;
+    display: grid;
 }
 
-.inside-projects > p {
+.inside-projects > div > p {
     font-size: 18px;
 }
 
-.inside-projects > div {
+.inside-projects > div > div {
     font-size: 16px;
     color: rgb(139, 132, 145);
+}
+
+.inside-projects :last-child {
+    align-self: end;
+    justify-self: end;
+}
+
+.inside-projects img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
 }
 
 .left-projects {
